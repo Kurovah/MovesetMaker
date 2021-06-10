@@ -1,0 +1,843 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4322436462427849607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4322436462427849600}
+  - component: {fileID: 4322436462427849602}
+  - component: {fileID: 4322436462427849601}
+  - component: {fileID: 4322436462427849603}
+  m_Layer: 0
+  m_Name: Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4322436462427849600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322436462427849607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 8.06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3708261079969384273}
+  - {fileID: 4322436463324723102}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4322436462427849602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322436462427849607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef9c28abbc3f5346b7a27fa9184c64f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}
+  knockbackVel: {x: 0, y: 0, z: 0}
+  currentMoveset:
+    actionTrees:
+    - actionName: newAction
+      animIndex: 0
+      canShiftDirection: 0
+      actionAnimation: airborne
+      movementX:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      movementY:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      movementZ:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      transitions: []
+      events: []
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 291
+        width: 200
+        height: 50
+      title: 
+      s: 
+      style:
+        m_Name: 
+        m_Normal:
+          m_Background: {fileID: 7126082630596479001, guid: 0000000000000000d000000000000000,
+            type: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_Hover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_Active:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_Focused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_OnNormal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_OnHover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_OnActive:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_OnFocused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_Border:
+          m_Left: 12
+          m_Right: 12
+          m_Top: 12
+          m_Bottom: 12
+        m_Margin:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Padding:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Overflow:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Font: {fileID: 0}
+        m_FontSize: 0
+        m_FontStyle: 0
+        m_Alignment: 0
+        m_WordWrap: 0
+        m_RichText: 1
+        m_TextClipping: 0
+        m_ImagePosition: 0
+        m_ContentOffset: {x: 0, y: 0}
+        m_FixedWidth: 0
+        m_FixedHeight: 0
+        m_StretchWidth: 1
+        m_StretchHeight: 0
+      defaultNodeStyle:
+        m_Name: 
+        m_Normal:
+          m_Background: {fileID: -3453378117783705200, guid: 0000000000000000d000000000000000,
+            type: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_Hover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_Active:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_Focused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_OnNormal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_OnHover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_OnActive:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_OnFocused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_Border:
+          m_Left: 12
+          m_Right: 12
+          m_Top: 12
+          m_Bottom: 12
+        m_Margin:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Padding:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Overflow:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Font: {fileID: 0}
+        m_FontSize: 0
+        m_FontStyle: 0
+        m_Alignment: 0
+        m_WordWrap: 0
+        m_RichText: 1
+        m_TextClipping: 0
+        m_ImagePosition: 0
+        m_ContentOffset: {x: 0, y: 0}
+        m_FixedWidth: 0
+        m_FixedHeight: 0
+        m_StretchWidth: 1
+        m_StretchHeight: 0
+      selectedNodeStyle:
+        m_Name: 
+        m_Normal:
+          m_Background: {fileID: 7126082630596479001, guid: 0000000000000000d000000000000000,
+            type: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_Hover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_Active:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_Focused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_OnNormal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_OnHover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_OnActive:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_OnFocused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+        m_Border:
+          m_Left: 12
+          m_Right: 12
+          m_Top: 12
+          m_Bottom: 12
+        m_Margin:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Padding:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Overflow:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Font: {fileID: 0}
+        m_FontSize: 0
+        m_FontStyle: 0
+        m_Alignment: 0
+        m_WordWrap: 0
+        m_RichText: 1
+        m_TextClipping: 0
+        m_ImagePosition: 0
+        m_ContentOffset: {x: 0, y: 0}
+        m_FixedWidth: 0
+        m_FixedHeight: 0
+        m_StretchWidth: 1
+        m_StretchHeight: 0
+      labelStyle:
+        m_Name: label
+        m_Normal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Hover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Active:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Focused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnNormal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnHover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnActive:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnFocused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+        m_Border:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Margin:
+          m_Left: 4
+          m_Right: 4
+          m_Top: 2
+          m_Bottom: 2
+        m_Padding:
+          m_Left: 2
+          m_Right: 2
+          m_Top: 1
+          m_Bottom: 1
+        m_Overflow:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Font: {fileID: 0}
+        m_FontSize: 12
+        m_FontStyle: 0
+        m_Alignment: 4
+        m_WordWrap: 0
+        m_RichText: 0
+        m_TextClipping: 1
+        m_ImagePosition: 0
+        m_ContentOffset: {x: 0, y: 0}
+        m_FixedWidth: 0
+        m_FixedHeight: 0
+        m_StretchWidth: 1
+        m_StretchHeight: 0
+      isDragged: 0
+      isSelected: 1
+      command: 
+      commandIndex: 0
+      start: 0
+    secondaryActionTrees: []
+  currentAction:
+    actionName: 
+    animIndex: 0
+    canShiftDirection: 0
+    actionAnimation: 
+    movementX:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementY:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    movementZ:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    transitions: []
+    events: []
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    title: 
+    s: 
+    style:
+      m_Name: 
+      m_Normal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Hover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Active:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Focused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnNormal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnHover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnActive:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnFocused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Border:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Margin:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Overflow:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Font: {fileID: 0}
+      m_FontSize: 0
+      m_FontStyle: 0
+      m_Alignment: 0
+      m_WordWrap: 0
+      m_RichText: 1
+      m_TextClipping: 0
+      m_ImagePosition: 0
+      m_ContentOffset: {x: 0, y: 0}
+      m_FixedWidth: 0
+      m_FixedHeight: 0
+      m_StretchWidth: 1
+      m_StretchHeight: 0
+    defaultNodeStyle:
+      m_Name: 
+      m_Normal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Hover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Active:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Focused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnNormal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnHover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnActive:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnFocused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Border:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Margin:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Overflow:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Font: {fileID: 0}
+      m_FontSize: 0
+      m_FontStyle: 0
+      m_Alignment: 0
+      m_WordWrap: 0
+      m_RichText: 1
+      m_TextClipping: 0
+      m_ImagePosition: 0
+      m_ContentOffset: {x: 0, y: 0}
+      m_FixedWidth: 0
+      m_FixedHeight: 0
+      m_StretchWidth: 1
+      m_StretchHeight: 0
+    selectedNodeStyle:
+      m_Name: 
+      m_Normal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Hover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Active:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Focused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnNormal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnHover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnActive:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnFocused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Border:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Margin:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Overflow:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Font: {fileID: 0}
+      m_FontSize: 0
+      m_FontStyle: 0
+      m_Alignment: 0
+      m_WordWrap: 0
+      m_RichText: 1
+      m_TextClipping: 0
+      m_ImagePosition: 0
+      m_ContentOffset: {x: 0, y: 0}
+      m_FixedWidth: 0
+      m_FixedHeight: 0
+      m_StretchWidth: 1
+      m_StretchHeight: 0
+    labelStyle:
+      m_Name: 
+      m_Normal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Hover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Active:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Focused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnNormal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnHover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnActive:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnFocused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Border:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Margin:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Overflow:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Font: {fileID: 0}
+      m_FontSize: 0
+      m_FontStyle: 0
+      m_Alignment: 0
+      m_WordWrap: 0
+      m_RichText: 1
+      m_TextClipping: 0
+      m_ImagePosition: 0
+      m_ContentOffset: {x: 0, y: 0}
+      m_FixedWidth: 0
+      m_FixedHeight: 0
+      m_StretchWidth: 1
+      m_StretchHeight: 0
+    isDragged: 0
+    isSelected: 0
+  animationController: {fileID: 3037447119173129119}
+  canMove: 1
+  invincible: 0
+  grounded: 0
+  stunned: 0
+  canChain: 1
+  armoured: 0
+  characterActive: 1
+  hitlag: 0
+  jumPow: 12
+  characterHealth: 100
+  spawnerParent: {fileID: 4322436463324723102}
+  currentMasterState: 0
+  currentAnimation: 
+  idleAnimation: idle
+  moveAnimation: run
+  airborneAnimation: airborne
+  hurtAnimation: idle
+  showConstantAnimations: 1
+  showBannedAnimations: 1
+  idleIndex: 1
+  moveIndex: 3
+  airborneIndex: 0
+  hurtIndex: 1
+  bannedIndexs: 01000000
+  shownonAnims: 0
+  nonusableanims: []
+  audioSource: {fileID: 0}
+--- !u!114 &4322436462427849601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322436462427849607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd02d79914807d740bc7375c522331e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerControlled: 0
+  lightPressed: 0
+  heavyPressed: 0
+  moveAxis: {x: 0, y: 0}
+  lastAxis: {x: 0, y: 0}
+  buffer: 
+  LightButton: 104
+  HeavyButton: 0
+  buffersize: 0
+--- !u!143 &4322436462427849603
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322436462427849607}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!1 &4322436463324723101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4322436463324723102}
+  m_Layer: 0
+  m_Name: SpawnTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4322436463324723102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322436463324723101}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4322436462427849600}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3818167048237097146
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4322436462427849600}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a7b0054c160b36a4391601da0cd25b4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a7b0054c160b36a4391601da0cd25b4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a7b0054c160b36a4391601da0cd25b4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a7b0054c160b36a4391601da0cd25b4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a7b0054c160b36a4391601da0cd25b4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -8.6595606e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a7b0054c160b36a4391601da0cd25b4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 8.65956e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a7b0054c160b36a4391601da0cd25b4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a7b0054c160b36a4391601da0cd25b4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a7b0054c160b36a4391601da0cd25b4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a7b0054c160b36a4391601da0cd25b4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a7b0054c160b36a4391601da0cd25b4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a7b0054c160b36a4391601da0cd25b4a,
+        type: 3}
+      propertyPath: m_Name
+      value: TESTERBODY
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a7b0054c160b36a4391601da0cd25b4a, type: 3}
+--- !u!4 &3708261079969384273 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a7b0054c160b36a4391601da0cd25b4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3818167048237097146}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &3037447119173129119 stripped
+Animation:
+  m_CorrespondingSourceObject: {fileID: 2223639932434330405, guid: a7b0054c160b36a4391601da0cd25b4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3818167048237097146}
+  m_PrefabAsset: {fileID: 0}
