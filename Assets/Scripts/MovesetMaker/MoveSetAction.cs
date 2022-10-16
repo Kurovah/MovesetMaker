@@ -259,7 +259,7 @@ public class MMHelperFunctions
 
     public static Texture2D GetSelectedNodeSkin()
     {
-        return Resources.Load<Texture2D>("Textures/roundedsquareselected");
+        return Resources.Load<Texture2D>("Textures/roundedsquare");
     }
 
     public static Texture2D GetArrowTex()

@@ -144,7 +144,7 @@ public class MovesetEditorWindow : EditorWindow
     private void DrawNodes(MoveSetAction action)
     {
         action.Draw();
-        if (action.transitions != null)
+        if (action.transitions != null && action.transitions.Count > 0)
         {
             foreach (ActionTransition _at in action.transitions)
             {

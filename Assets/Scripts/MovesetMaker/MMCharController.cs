@@ -449,7 +449,10 @@ public class MMCharController : MonoBehaviour
             inTree = false;
             animationController[hurtAnimation].time = 0;
             animationController.Play(hurtAnimation, PlayMode.StopSameLayer);
-            Instantiate(_hitspark, spawnerParent.transform.position + Vector3.up * 1.5f, spawnerParent.transform.rotation);
+
+            if(_hitspark != null)
+                Instantiate(_hitspark, spawnerParent.transform.position + Vector3.up * 1.5f, spawnerParent.transform.rotation);
+
             ResetMoveset();
             currentMasterState = MasterStates.Hurt;
             ApplyHitLagWithKnockBack(hitLagTime, knockBack);
@@ -547,7 +550,7 @@ public class MMCharController : MonoBehaviour
     {
         while (knockbackVel.magnitude > 0.1f)
         {
-            knockbackVel = Vector3.Lerp(knockbackVel, Vector3.zero, 0.01f);
+            knockbackVel = Vector3.Lerp(knockbackVel, Vector3.zero, 0.1f);
             yield return null;
         }
 
