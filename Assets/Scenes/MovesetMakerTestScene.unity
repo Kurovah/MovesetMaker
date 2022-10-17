@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d111c030be3bdb64687f7948056dc01e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 2096149977}
+  target: {fileID: 1606511175}
   cameraTransform: {fileID: 963194228}
   verticalOffset: 6
   zoom: 10
@@ -920,6 +920,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1606511175 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2547206609237063595, guid: 70f3f5213727c554495c767eaf22c608,
+    type: 3}
+  m_PrefabInstance: {fileID: 1817189567}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1817189567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6178,7 +6184,7 @@ PrefabInstance:
     - target: {fileID: 2547206609237063598, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
       propertyPath: playerControlled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70f3f5213727c554495c767eaf22c608, type: 3}
@@ -6258,12 +6264,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952545208}
   m_CullTransparentMesh: 0
---- !u!4 &2096149977 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2547206609237063595, guid: 70f3f5213727c554495c767eaf22c608,
-    type: 3}
-  m_PrefabInstance: {fileID: 2547206608378298994}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2096149980 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2547206609237063598, guid: 70f3f5213727c554495c767eaf22c608,
@@ -6326,12 +6326,12 @@ PrefabInstance:
     - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
       propertyPath: currentMoveset.actionTrees.Array.data[0].rect.x
-      value: -2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
       propertyPath: currentMoveset.actionTrees.Array.data[0].rect.y
-      value: 171
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
@@ -7769,7 +7769,7 @@ PrefabInstance:
     - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
       propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[0].nextAction.rect.y
-      value: 74
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
@@ -10476,7 +10476,7 @@ PrefabInstance:
     - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
       propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.rect.x
-      value: 427
+      value: 396
       objectReference: {fileID: 0}
     - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
@@ -10516,12 +10516,12 @@ PrefabInstance:
     - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
       propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.rect.x
-      value: 423
+      value: 395
       objectReference: {fileID: 0}
     - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
       propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.rect.y
-      value: 195
+      value: 189
       objectReference: {fileID: 0}
     - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
@@ -10812,6 +10812,11 @@ PrefabInstance:
         type: 3}
       propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.style.m_Border.m_Right
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
@@ -12679,7 +12684,507 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.rect.x
+      value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.rect.y
+      value: 238
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
       propertyPath: currentMoveset.actionTrees.Array.data[1].transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.selectedNodeStyle.m_OnFocused.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.actionName
+      value: newAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.rect.width
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.rect.height
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.actionAnimation
+      value: punch
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Name
+      value: label
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_Border.m_Top
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_StretchWidth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_FontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_Border.m_Left
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_Border.m_Right
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.movementX.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.movementY.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.movementZ.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_Border.m_Bottom
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.movementX.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.movementY.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.movementZ.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Margin.m_Top
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_StretchWidth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_TextClipping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.movementX.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.movementY.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.movementZ.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Margin.m_Left
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Padding.m_Top
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Margin.m_Right
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Padding.m_Left
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_Hover.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_Normal.m_Background
+      value: 
+      objectReference: {fileID: 2800000, guid: a5ff9bfa9e1aacb4b82bf9177d398c3d, type: 3}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Margin.m_Bottom
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Padding.m_Right
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.selectedNodeStyle.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_Active.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_Normal.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Padding.m_Bottom
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_Focused.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_OnHover.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_OnActive.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_OnNormal.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_Border.m_Top
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_StretchWidth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.style.m_OnFocused.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_Border.m_Left
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Hover.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Hover.m_TextColor.b
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Hover.m_TextColor.g
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Hover.m_TextColor.r
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.selectedNodeStyle.m_StretchWidth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_Border.m_Right
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Active.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Active.m_TextColor.b
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Active.m_TextColor.g
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Active.m_TextColor.r
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Normal.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Normal.m_TextColor.b
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Normal.m_TextColor.g
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Normal.m_TextColor.r
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_Border.m_Bottom
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Focused.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Focused.m_TextColor.b
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Focused.m_TextColor.g
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_Focused.m_TextColor.r
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnHover.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnHover.m_TextColor.b
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnHover.m_TextColor.g
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnHover.m_TextColor.r
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnActive.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnActive.m_TextColor.b
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnActive.m_TextColor.g
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnActive.m_TextColor.r
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnNormal.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnNormal.m_TextColor.b
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnNormal.m_TextColor.g
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnNormal.m_TextColor.r
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnFocused.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnFocused.m_TextColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnFocused.m_TextColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.labelStyle.m_OnFocused.m_TextColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_Hover.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_Normal.m_Background
+      value: 
+      objectReference: {fileID: 2800000, guid: a5ff9bfa9e1aacb4b82bf9177d398c3d, type: 3}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_Active.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_Normal.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.selectedNodeStyle.m_Hover.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_Focused.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_OnHover.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.selectedNodeStyle.m_Active.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.selectedNodeStyle.m_Normal.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_OnActive.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_OnNormal.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.selectedNodeStyle.m_Focused.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.selectedNodeStyle.m_OnHover.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.defaultNodeStyle.m_OnFocused.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.selectedNodeStyle.m_OnActive.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.selectedNodeStyle.m_OnNormal.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547206609237063592, guid: 70f3f5213727c554495c767eaf22c608,
+        type: 3}
+      propertyPath: currentMoveset.actionTrees.Array.data[0].transitions.Array.data[1].nextAction.transitions.Array.data[0].nextAction.transitions.Array.data[0].nextAction.selectedNodeStyle.m_OnFocused.m_TextColor.a
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2547206609237063593, guid: 70f3f5213727c554495c767eaf22c608,
@@ -12765,7 +13270,7 @@ PrefabInstance:
     - target: {fileID: 2547206609237063598, guid: 70f3f5213727c554495c767eaf22c608,
         type: 3}
       propertyPath: playerControlled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70f3f5213727c554495c767eaf22c608, type: 3}
